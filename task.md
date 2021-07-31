@@ -18,7 +18,7 @@
 We can mix and match the options.
 
 Edge cases:
-1- If file entered is not found then it gives file does not exist error.
-2- -n and -b are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.
+- [ ] 1- If file entered is not found then it gives file does not exist error.
+- [ ] 2- -n and -b are 2 options which are mutually exclusive so if user types both of them together only the first enter option should work.
 
 
