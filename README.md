@@ -15,7 +15,7 @@
 - [ ] 3- node wcat.js -s filepath => convert big line breaks into a singular line break
 - [ ] 4- node wcat.js -n filepath => give numbering to all the lines 
 - [ ] 5- node wcat.js -b filepath => give numbering to non-empty lines
-We can mix and match the options.
+- [ ] We can mix and match the options.
 
 ## Edge cases:
 - [ ] 1- If file entered is not found then it gives file does not exist error.
