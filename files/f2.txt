@@ -1,0 +1,3 @@
+hi i am f2
+
+with single empty line
