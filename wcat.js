@@ -31,6 +31,7 @@ if(optionsArr.includes("-n") && optionsArr.includes("-b")){
             break;
         }
     }
+    // if -s also include with -n -b (wcat.js -s -n -b or -s -b -n ,etc then possible condition -s -n or -s -b)
     if(optionsArr.includes("-s")){
         tempArr.push("-s");
     }
