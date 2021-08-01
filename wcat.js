@@ -59,7 +59,7 @@ for(let i=0;i<filesArr.length;i++){
 let contentArr=content.split("\r\n");
 // console.log(contentArr);
 
-// -s
+// ***********  -s  ***********
 let isSPresent = optionsArr.includes("-s");
 if(isSPresent==true){
 
@@ -81,7 +81,7 @@ if(isSPresent==true){
     contentArr=tempArr;
 }
 
-// -n
+// ************  -n   ************
 let isNPresent = optionsArr.includes("-n");
 if(isNPresent==true){
    
@@ -92,7 +92,7 @@ if(isNPresent==true){
 }
 
 
-// -b
+//  ****************    -b  *************
 let isBPresent = optionsArr.includes("-b");
 if(isBPresent==true){
    let count=1;
