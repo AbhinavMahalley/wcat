@@ -59,7 +59,7 @@ for(let i=0;i<filesArr.length;i++){
 let contentArr=content.split("\r\n");
 // console.log(contentArr);
 
-// ***********  -s  ***********
+// ***********  -s   *************
 let isSPresent = optionsArr.includes("-s");
 if(isSPresent==true){
 
