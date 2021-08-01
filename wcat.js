@@ -31,7 +31,7 @@ if(optionsArr.includes("-n") && optionsArr.includes("-b")){
             break;
         }
     }
-    // if -s also include with -n -b (wcat.js -s -n -b or -s -b -n ,etc then possible condition -s -n or -s -b)
+// if -s also include with -n -b (wcat.js -s -n -b or -s -b -n ,etc then possible condition -s -n or -s -b)
     if(optionsArr.includes("-s")){
         tempArr.push("-s");
     }
@@ -55,7 +55,7 @@ for(let i=0;i<filesArr.length;i++){
     content += bufferContent+"\r\n";
 }
 
-//split content arr
+//split content array
 let contentArr=content.split("\r\n");
 // console.log(contentArr);
 
